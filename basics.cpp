@@ -23,5 +23,10 @@ int main(){
     double pi = 3.145789;
     bool isEven = true;
 
+    // String Operations:-
+    string greet;
+    cout << "Enter a greeting message:";
+    cin >> greet;
+    cout << "You entered: " << greet <<endl;
     return 0;
 }
